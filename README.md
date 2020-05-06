@@ -14,6 +14,15 @@ When you have completed this code pattern, you will understand how to:
 * Get feature vectors for all the images then scale them down using [PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html).
 * Use cosine distance between pca features to compare the query image to 5 number of closest images and return them as thumbnails.
 
+## Flow
+
+![architecture](doc/source/images/architecture.png)
+
+1. User interacts with Jupyter notebook to import and use Python modules.
+2. 101_Object_Categories from caltech-101 are imported for image search.
+3. Keras VGG16 model is imported, with weights pre-trained on ImageNet.
+4. User can perform feature extraction using GPU for increased performance.
+
 ## Watch the Video:
 
 [![video](http://img.youtube.com/vi/FpWsLvXFCy0/0.jpg)](https://youtu.be/FpWsLvXFCy0)
@@ -21,9 +30,9 @@ When you have completed this code pattern, you will understand how to:
 ## Steps
 
 1. [Clone the repository](#1-clone-the-repository)
-2. Perform either 2a or 2b:  
-  2a. [Create a notebook in IBM Watson Studio](#2a-create-a-notebook-in-ibm-watson-studio)  
-  2b. [Create notebook locally](#2b-create-notebook-locally)  
+2. Perform either 2a or 2b:
+  2a. [Create a notebook in IBM Watson Studio](#2a-create-a-notebook-in-ibm-watson-studio)
+  2b. [Create notebook locally](#2b-create-notebook-locally)
 3. [Run the notebook](#3-run-the-notebook)
 
 ### 1. Clone the repository
