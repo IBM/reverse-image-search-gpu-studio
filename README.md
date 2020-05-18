@@ -35,9 +35,9 @@ When you have completed this code pattern, you will understand how to:
 ## Steps
 
 1. [Clone the repository](#1-clone-the-repository)
-2. Perform either 2a or 2b:
-  2a. [Create a notebook in IBM Watson Studio](#2a-create-a-notebook-in-ibm-watson-studio)
-  2b. [Create notebook locally](#2b-create-notebook-locally)
+2. Perform either i or ii:
+   1. [Create a notebook in IBM Watson Studio](#2a-create-a-notebook-in-ibm-watson-studio)
+   2. [Create notebook locally](#2b-create-notebook-locally)
 3. [Run the notebook](#3-run-the-notebook)
 
 
